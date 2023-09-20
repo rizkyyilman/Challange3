@@ -22,7 +22,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_planet"
+                android:id="@+id/iv_menu"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintHeight_percent="0.5"
@@ -34,7 +34,7 @@
                 tools:src="@drawable/menu1" />
 
             <TextView
-                android:id="@+id/tv_planet_name"
+                android:id="@+id/tv_menu_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
@@ -45,7 +45,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iv_planet"
-                tools:text="Makanan" />
+                tools:text="Makanan"
+                tools:ignore="UnknownId" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
