@@ -19,4 +19,7 @@
     <string name="text_menu_burger">Burger</string>
     <string name="text_price">Rp 20.000</string>
     <string name="text_desc_burger">Perpaduan roti bun dengan daging ham yang telah dibumbui yang menciptakan cita rasa nikmat!</string>
+    <string name="text_lokasi">Lokasi</string>
+    <string name="tv_lokasi_detail">Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang, Banten 15345</string>
+    <string name="text_btn_maps">Maps Navigation</string>
 </resources>

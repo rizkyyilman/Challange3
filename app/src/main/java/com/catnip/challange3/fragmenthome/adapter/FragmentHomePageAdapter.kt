@@ -61,6 +61,7 @@ class FragmentHomePageAdapter(
     fun refreshList() {
         notifyItemRangeChanged(0,dataDiffer.currentList.size)
     }
+
 }
 
 

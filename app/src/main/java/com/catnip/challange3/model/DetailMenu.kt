@@ -9,7 +9,7 @@ data class DetailMenu(
     val id: String = UUID.randomUUID().toString(),
     val position: Int,
     val name: String,
-    val price: Double,
+    val price: String,
     val imgUrl: String,
     val desc: String
 ) : Parcelable

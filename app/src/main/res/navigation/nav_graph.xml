@@ -24,4 +24,7 @@
             app:nullable="true"
             android:defaultValue="@null" />
     </fragment>
+    <argument
+        android:name="menu"
+        app:argType="com.catnip.challange3.model.DetailMenu" />
 </navigation>
