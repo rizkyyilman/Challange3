@@ -36,6 +36,41 @@ class MenuDataSourceImpl() : MenuDataSource {
             price = "Rp 25.000",
             imgUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Scarlett_Johansson_as_Black_Widow.jpg/220px-Scarlett_Johansson_as_Black_Widow.jpg",
             desc = "Makanan Terenak Sejagat Raya"
+        ),
+        DetailMenu(
+            position = 5,
+            name = "Kopi",
+            price = "Rp 20.000",
+            imgUrl = "https://images.bisnis.com/posts/2017/06/22/665183/tony-stark.jpg",
+            desc = "Kopi yang bikin badan jadi ga ngantuk !"
+        ),
+        DetailMenu(
+            position = 6,
+            name = "Kenteng Goreng",
+            price = "Rp 15.000",
+            imgUrl = "https://images.bisnis.com/posts/2017/06/22/665183/tony-stark.jpg",
+            desc = " Kentang Goreng yang digoreng dengan minyak pilihan"
+        ),
+        DetailMenu(
+            position = 7,
+            name = "Sate Ayam",
+            price = "Rp 15.000",
+            imgUrl = "https://images.bisnis.com/posts/2017/06/22/665183/tony-stark.jpg",
+            desc = "Sate ayam seperti biasanya"
+        ),
+        DetailMenu(
+            position = 8,
+            name = "Jus Strawberry",
+            price = "Rp 15.000",
+            imgUrl = "https://images.bisnis.com/posts/2017/06/22/665183/tony-stark.jpg",
+            desc = "Buah strawberry yang diblender dengan air dan susu kental manis"
+        ),
+        DetailMenu(
+            position = 9,
+            name = "Sushi",
+            price = "Rp 35.000",
+            imgUrl = "https://images.bisnis.com/posts/2017/06/22/665183/tony-stark.jpg",
+            desc = "Makanan Orang Jepang"
         )
     )
 }
