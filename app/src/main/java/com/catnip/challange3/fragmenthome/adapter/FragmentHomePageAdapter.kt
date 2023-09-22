@@ -9,9 +9,10 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import com.catnip.challange3.core.ViewHolderBinder
 import com.catnip.challange3.databinding.ItemGridMenuBinding
+import com.catnip.challange3.databinding.ItemLinearMenuBinding
 
 class FragmentHomePageAdapter(
-    onClickListener1: AdapterLayoutMode,
+    val adapterLayoutMode: AdapterLayoutMode,
     private val onClickListener: (DetailMenu) -> Unit
 ) : RecyclerView.Adapter<ViewHolder>() {
 
@@ -40,8 +41,8 @@ class FragmentHomePageAdapter(
            }
 
            else -> {
-               GridMenuItemViewHolder(
-                   binding = ItemGridMenuBinding.inflate(
+               LinearMenuItemViewHolder(
+                   binding = ItemLinearMenuBinding.inflate(
                        LayoutInflater.from(parent.context),parent,false
                    ),onClickListener)
            }
@@ -61,7 +62,10 @@ class FragmentHomePageAdapter(
     fun refreshList() {
         notifyItemRangeChanged(0,dataDiffer.currentList.size)
     }
-
+ 
+    override fun getItemViewType(position: Int): Int {
+        return adapterLayoutMode.ordinal
+    }
 }
 
 
